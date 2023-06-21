@@ -1,0 +1,248 @@
+.sidebar{
+    flex:2;
+    background-color:#004953
+}
+.chat{
+    flex:3;
+    background-color: #008B8B;
+}
+
+.navbar{
+display:flex;
+flex-direction:row;
+justify-content: space-around;
+background-color: darkslategrey;
+}
+
+.navimg img{
+    height:2rem;
+    width:2rem;
+    border-radius:30px;
+
+}
+.navbarinfo{
+    display:flex;
+flex-direction:row;
+justify-content: space-between;
+gap:0.5rem;
+padding:0.2rem
+}
+
+.logbutton{
+    padding:0.2rem;
+    border:1px solid greenyellow;
+    background-color: rgb(63, 170, 90);
+    color:black
+}
+
+.navnam,.logbutton,.websitename{
+    display:flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+}
+
+.websitename{
+    font-family: cursive;
+    font-style: oblique;
+    font-weight:bolder;
+    color:aliceblue
+}
+
+.navnam{
+    padding:0.2rem;
+    color:whitesmoke
+}
+
+.searchbar{
+    margin:0.3rem
+}
+.searchbar input{
+    width:80%;
+    height:2.5rem;
+    padding:0.2rem;
+    color:white;
+    font-size:1rem;
+    outline:none;
+    border:1px solid greenyellow;
+    background-color:#004953;
+}
+
+.chats{
+    overflow-y: scroll;
+    height:30rem
+}
+
+.msgimg img{
+    height:3rem;
+    width:3rem;
+    border-radius:50px;
+
+}
+.msgpart{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+   
+    width:80%;
+    margin:1rem;
+    
+    padding:1rem;
+}
+.msgimg{
+    flex:1;
+    background-color: rgba(41, 117, 184, 0.329);
+    display:flex;
+    justify-content: center;
+    align-items:center
+    
+}
+.msgdetails{
+    flex:2;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap:0.1rem;
+    width:100%;
+    height:100;
+
+}
+.toppart{
+
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap:0.2rem;
+    width:100%;
+    border-bottom:1px solid green
+
+}
+.msgdetails{
+    background-color: darkcyan;
+    padding:1rem;
+    font-size: smaller;
+    font-family: cursive;
+}
+
+
+.msgdetailsname{
+    margin-bottom:0.5rem
+}
+
+
+.chathead{
+    background-color: cadetblue;
+    height:10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.chaticon{
+    padding:1rem;
+    color:white;
+    font-size:larger;
+    background-color: #3c5050;
+    
+}
+.messages{
+    height:80%
+}
+
+
+.chatinput input{
+    height:3.5rem;
+    width:99%;
+    outline:none;
+    border:none;
+    overflow:hidden;
+    
+    background-color:#004953 ;
+    color:aliceblue;
+    
+}
+
+ ::placeholder{
+    color:rgb(57, 126, 126)
+}
+
+.message{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:0.1rem;
+    padding:1rem;
+    height:auto;
+    flex-wrap: wrap;
+}
+.messages{
+    overflow-y:scroll;
+    height:29.3rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between
+}
+#owner{
+    flex-direction:row-reverse;
+}
+#owner {
+    background-color:#004953
+}
+
+.message{
+   
+    margin:1rem;
+    border-bottom:1px solid white;
+}
+.content{
+   
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+   
+
+}
+.messagecontent{
+    background-color: #3c5050;
+    padding:1rem
+}
+
+.messagecontent{
+    margin:1rem;
+    width:10rem;
+    overflow:hidden;
+    height:auto;
+    font-style: italic;
+}
+
+#owner img{
+    border:2px solid rgb(158, 158, 204)
+}
+.chatinput{
+    display: flex;
+    flex-direction: row; background-color:#004953 ;
+}
+
+.send{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:1rem
+}
+.chatshort:hover{
+    background-color:#008B8B
+}
+
+
+
+.searchmsg{
+    position:absolute;
+    width:20%;
+    border:2px solid black;
+    background-color: #3c5050;
+}
+
+
+

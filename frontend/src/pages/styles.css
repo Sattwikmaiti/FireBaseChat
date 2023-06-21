@@ -1,0 +1,63 @@
+.registerbox{
+    position:absolute;
+    left:40%;
+    top:20%
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+ gap:1rem
+
+}
+
+
+.formcomponent img{
+    height:5rem;
+    width:5rem;
+}
+.registerbox{
+    background-color: rgb(126, 219, 89);
+    padding:3rem;
+    
+
+}
+
+.formcomponent input{
+height:2rem;
+font-size:1.5rem;
+border:1px solid greenyellow;
+outline:1px solid green;
+color:rgb(194, 216, 160)
+}
+.formcomponent button{
+    padding:0.4rem;
+    border:1px solid greenyellow;
+outline:1px solid green;
+    background-color: chartreuse;
+}
+
+
+
+.home{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(101,214,66);
+background: linear-gradient(69deg, rgba(101,214,66,1) 5%, rgba(65,180,54,1) 28%, rgba(54,217,54,0.9108018207282913) 46%, rgba(181,242,139,1) 64%);
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    
+   
+    width:65%;
+    height:80%;
+    border:1px solid white
+}
+
+
+
+
